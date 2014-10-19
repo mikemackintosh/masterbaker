@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'mac_os_x',
+  :github => 'chef-osx/mac_os_x'
+
+cookbook "dmg",
+  :github => "opscode-cookbooks/dmg"
+
+cookbook 'homebrew',
+  :github => 'opscode-cookbooks/homebrew'
