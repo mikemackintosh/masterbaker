@@ -1,0 +1,16 @@
+cookbook_paths:
+  - site_cookbooks
+
+recipes:
+  - rock
+  - rock::ruby21
+  - apps::iterm2
+  - apps::alfred
+  - apps::chrome
+  - apps::dropbox
+  - apps::sublime_text3
+#  - apps::1password
+  - rock::php55
+
+
+#node_attributes:
