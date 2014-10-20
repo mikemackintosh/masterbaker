@@ -2,15 +2,25 @@ cookbook_paths:
   - site_cookbooks
 
 recipes:
+
+# Rock for development
   - rock
   - rock::ruby21
+  - rock::php55
+  - rock::php56
+
+# Apps
   - apps::iterm2
   - apps::alfred
   - apps::chrome
   - apps::dropbox
   - apps::sublime_text3
 #  - apps::1password
-  - rock::php55
 
+# System
+  - system
+  - system::updates
+  - system::ssh_copy_id
+  - system::login_screen_admin_info
 
 #node_attributes:
