@@ -14,6 +14,7 @@ recipes:
   - apps::alfred
   - apps::chrome
   - apps::dropbox
+  - apps::bartender
   - apps::sublime_text3
 #  - apps::1password
 
