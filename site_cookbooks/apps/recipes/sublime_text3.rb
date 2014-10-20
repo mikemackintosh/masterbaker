@@ -25,3 +25,7 @@ remote_file "#{sublime_installed_packages_path}/Package Control.sublime-package"
     owner node['current_user']
     action :create_if_missing
 end
+
+link "/usr/bin/sublime" do
+  to "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+end
