@@ -24,4 +24,20 @@ recipes:
   - system::ssh_copy_id
   - system::login_screen_admin_info
 
-#node_attributes:
+node_attributes:
+  system
+    login_window_message:
+      login_window_message: Long message here!
+    
+    terminal:
+      default_profile: 'Pro'
+    
+    settings:
+      clock_format: EEE MMM d  h:mm:ss a
+    
+    dock_preferences:
+      orientation: 'bottom'
+      auto_hide: false
+      clear_apps: true
+      tile_size: 35
+      magnification': false
