@@ -1,7 +1,7 @@
 # Install
 
 dmg_package 'Sublime Text' do
-  volumes_dir 'Sublime Text3 Installer'
+  volumes_dir 'Sublime Text'
   source      "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%20#{node['apps']['sublime_text3']['version']}.dmg"
   checksum    "#{node['apps']['sublime_text3']['checksum']}"
   action      :install
