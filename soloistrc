@@ -16,12 +16,12 @@ recipes:
   - apps::dropbox
   - apps::bartender
   - apps::sublime_text3
-#  - apps::1password
+  #  - apps::1password
 
 # System
   - system
+  - system::tools
   - system::updates
-  - system::ssh_copy_id
   - system::login_screen_admin_info
 
 node_attributes:

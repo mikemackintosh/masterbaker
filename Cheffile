@@ -2,6 +2,12 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
+cookbook 'apps',
+  :github => 'mikemackintosh/masterbaker-apps'
+
+cookbook 'system',
+  :github => 'mikemackintosh/masterbaker-system'
+
 cookbook 'mac_os_x',
   :github => 'chef-osx/mac_os_x'
 
