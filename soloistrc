@@ -20,6 +20,7 @@ recipes:
   - apps::ninetails
   - apps::sublime_text3
   - apps::slack
+  - apps::coda2
   - apps::bashit
   - apps::1password
 
@@ -34,5 +35,7 @@ node_attributes:
     login_window_message:
       login_window_message: "Long message here!"
     hide_directories:
-      - "~/fdfsd"
+      - "~/masterbakery-apps"
+      - "~/masterbakery-system"
+      - "~/masterbakery-rock"
       - "~/bakery"
