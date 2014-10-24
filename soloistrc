@@ -11,20 +11,28 @@ recipes:
 
 # Apps
   - apps::iterm2
+  - apps::hopper
   - apps::alfred
   - apps::chrome
   - apps::dropbox
+  - apps::viscosity
   - apps::bartender
+  - apps::ninetails
   - apps::sublime_text3
-  #  - apps::1password
+  - apps::slack
+  - apps::bashit
+  - apps::1password
 
 # System
   - system
   - system::tools
-  - system::updates
   - system::login_screen_admin_info
+  - system::login_screen_message
 
 node_attributes:
   system:
     login_window_message:
       login_window_message: "Long message here!"
+    hide_directories:
+      - "~/fdfsd"
+      - "~/bakery"
