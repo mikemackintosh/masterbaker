@@ -19,3 +19,6 @@ cookbook 'system',
 
 cookbook 'rock',
   :github => 'mikemackintosh/masterbaker-rock'
+
+cookbook 'fonts',
+  :github => 'mikemackintosh/masterbaker-fonts'
