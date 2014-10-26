@@ -9,6 +9,11 @@ recipes:
   - rock::php55
   - rock::php56
 
+# Fonts
+  - fonts::ubuntu
+  - fonts::inconsolata
+  - fonts::sourcecodepro
+
 # Apps
   - apps::iterm2
   - apps::hopper
@@ -23,6 +28,7 @@ recipes:
   - apps::coda2
   - apps::bashit
   - apps::1password
+  - apps::knox
 
 # System
   - system
