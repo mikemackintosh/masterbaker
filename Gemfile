@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'Bakist', require: false
+gem 'bakist', require: false
 gem 'plist', require: false
 gem 'foodcritic', require: false
