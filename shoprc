@@ -1,0 +1,11 @@
+recipes:
+  # System
+  - system
+  - system::tools
+  - system::login_screen_admin_info
+  - system::login_screen_message
+
+node_attributes:
+  system:
+    login_window_message:
+      login_window_message: "Long message here!"
