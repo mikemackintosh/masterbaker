@@ -45,3 +45,6 @@ node_attributes:
       - "~/masterbakery-system"
       - "~/masterbakery-rock"
       - "~/bakery"
+  apps:
+    bashit:
+      theme: splug
