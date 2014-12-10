@@ -4,7 +4,7 @@ cookbook_paths:
 recipes:
 
 # Homebrew
-  - sprout-homebrew
+  - homebrew
   
 # Rock for development
   - rock
