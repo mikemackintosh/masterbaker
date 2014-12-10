@@ -3,6 +3,9 @@ cookbook_paths:
 
 recipes:
 
+# Homebrew
+  - sprout-homebrew
+  
 # Rock for development
   - rock
   - rock::ruby21
