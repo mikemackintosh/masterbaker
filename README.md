@@ -4,6 +4,11 @@ Masterbaker spawned from the [Soloist](https://github.com/mkocher/soloist) proje
 
 Masterbaker was designed with users in mind, allowing a global runlist as well as user-specific.
 
+Lazy Installation
+-------------
+    
+    curl https://raw.githubusercontent.com/mikemackintosh/masterbaker/master/kthx.sh | sh
+
 Using Masterbaker
 -------------
 
