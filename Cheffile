@@ -2,7 +2,7 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'sprout-homebrew'
+cookbook 'sprout-homebrew',
   :github => 'pivotal-sprout/sprout-homebrew'
 
 cookbook 'mac_os_x',
